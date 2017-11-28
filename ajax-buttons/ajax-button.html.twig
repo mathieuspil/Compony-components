@@ -1,0 +1,9 @@
+{{ attach_library('compony/ajax-buttons') }}
+
+{% set attributes = attributes.addClass('use-ajax', 'btn', 'btn--default', 'btn--ajax') %}
+
+<a href="{{ url }}" {{ attributes }} >
+  {{ svg|raw }}
+
+  <span>{{ title }}</span>
+</a>

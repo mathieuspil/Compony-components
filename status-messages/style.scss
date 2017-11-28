@@ -1,0 +1,20 @@
+@import "./_sass-essentials/essentials.scss";
+
+// theming for messages
+.messages {
+  &.messages--error {
+    background: $c-red;
+  }
+
+  &.messages--status {
+    background: $c-green;
+  }
+
+  &.messages--notice {
+    background: $c-blue;
+  }
+
+  &.messages--warning {
+    background: $c-yellow;
+  }
+}

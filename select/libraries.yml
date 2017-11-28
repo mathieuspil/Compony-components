@@ -1,0 +1,5 @@
+select:
+  version: VERSION
+  css:
+    component:
+      components/select/dist/style.css: {}

@@ -1,0 +1,17 @@
+@import "./_sass-essentials/essentials.scss";
+
+.item-list {
+  ol,
+  ul {
+    margin: 0 0 0.75em;
+    padding: 0;
+  }
+
+  ul {
+    list-style-type: disc;
+  }
+
+  ol {
+    list-style-type: decimal;
+  }
+}

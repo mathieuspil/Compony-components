@@ -1,0 +1,11 @@
+ajax-buttons:
+  version: VERSION
+  css:
+    component:
+      components/ajax-buttons/dist/style.css: {}
+  js:
+    components/ajax-buttons/dist/script.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/drupal.ajax

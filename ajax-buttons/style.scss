@@ -1,0 +1,34 @@
+@import "./_sass-essentials/essentials.scss";
+
+@-webkit-keyframes pulse_box_shadow {
+  0% {
+    opacity: 1;
+  }
+  70% {
+      opacity: 0.4;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+@keyframes pulse_box_shadow {
+  0% {
+    opacity: 1;
+  }
+  70% {
+      opacity: 0.4;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+.btn--ajax {
+  + .ajax-progress {
+    display: none;
+  }
+  &.js-loading {
+    -webkit-animation: pulse_box_shadow 1s infinite;
+    animation: pulse_box_shadow 1s infinite;
+  }
+}

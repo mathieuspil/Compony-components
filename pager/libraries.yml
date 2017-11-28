@@ -1,0 +1,5 @@
+pager:
+  version: VERSION
+  css:
+    component:
+      components/pager/dist/style.css: {}

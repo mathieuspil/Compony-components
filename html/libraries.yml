@@ -1,0 +1,5 @@
+html:
+  version: VERSION
+  css:
+    component:
+      components/html/dist/style.css: {}

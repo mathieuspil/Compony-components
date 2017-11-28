@@ -1,0 +1,5 @@
+views:
+  version: VERSION
+  css:
+    component:
+      components/views/dist/style.css: {}

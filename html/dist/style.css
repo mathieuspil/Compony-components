@@ -1,0 +1,27 @@
+/* Animations
+@mixin transition() {
+  transition: all 150ms ease;
+}*/
+/*
+@mixin btn {
+  display: inline-block;
+  border: 0;
+  box-shadow: none;
+  cursor: pointer;
+  background-color: transparent;
+  white-space: normal;
+  text-align: left;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+}
+*/
+a,
+a:hover,
+a:focus {
+  color: red !important;
+}
+
+/*# sourceMappingURL=maps/style.css.map */

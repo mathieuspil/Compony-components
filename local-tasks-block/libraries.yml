@@ -1,0 +1,5 @@
+local-tasks-block:
+  version: VERSION
+  css:
+    component:
+      components/local-tasks-block/dist/style.css: {}

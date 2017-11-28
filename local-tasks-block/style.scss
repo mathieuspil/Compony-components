@@ -1,0 +1,59 @@
+@import "./_sass-essentials/essentials.scss";
+
+nav.tabs {
+  $base-spacing: 1.5em !default;
+  $tab-border: 1px solid $c-gray--light;
+
+  line-height: 1.5;
+  padding: 0;
+  margin: 5px 0;
+
+  ul {
+    margin-bottom: 0;
+  }
+
+  li {
+    list-style: none;
+    border-top: $tab-border;
+
+    @media(min-width: 800px) {
+      display: inline-block;
+      margin-bottom: 0;
+      border-top: 0;
+    }
+
+    a {
+      background-color: $c-gray--light;
+      border-top: $tab-border;
+      color: $c-gray--dark;
+      display: block;
+      font-weight: 400;
+      padding: ($base-spacing / 2) 20px;
+      text-decoration: none;
+
+      @media(min-width: 800px) {
+        display: inline-block;
+        border-top: 0;
+      }
+
+
+      &.is-active {
+        border-bottom: 0;
+
+        @media(min-width: 800px) {
+          border: $tab-border;
+          border-bottom-color: $c-white;
+          margin-bottom: -1px;
+        }
+      }
+
+      &:hover {
+        color: $c-blue;
+      }
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{% extends "block.html.twig" %}
+{#
+/**
+ * @file
+ * Theme override for tabs.
+ */
+#}
+{% block content %}
+  {% if content %}
+    {{ attach_library('compony/local-tasks-block') }}
+    <nav class="tabs" role="navigation" aria-label="{{ 'Tabs'|t }}">
+      {{ content }}
+    </nav>
+  {% endif %}
+{% endblock %}

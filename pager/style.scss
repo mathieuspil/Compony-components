@@ -1,0 +1,29 @@
+@import "./_sass-essentials/essentials.scss";
+
+.pager {
+  .pager__items {
+    text-align: left;
+  }
+  li {
+    padding: 0;
+  }
+  a {
+    font-size: 18px;
+    padding: 0.4em 0.5em;
+    border-radius: 4px;
+    color: #444;
+    background: transparent;
+    display: inline-block;
+    margin: 0 5px;
+    &:hover,
+    &:focus {
+      background: #BBB;
+      color: #444;
+    }
+  }
+  .is-active a {
+    background: #444;
+    color: #FFF;
+    font-weight: bold;
+  }
+}
